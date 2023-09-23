@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Photographer | Welcome</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav id="navbar">
+        <h1 class="logo"><a href="index.html">JANE</a></h1>
+        <ul>
+          <li><a href="#showcase">Home</a></li>
+          <li><a href="#about-info">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Showcase -->
+      <div id="showcase">
+        <h2>Jane Doe</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi,
+          sequi numquam id consequuntur enim laudantium!
+        </p>
+        <a href="#about-info" class="btn">About Me</a>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about-info">
+      <div class="info-left">
+        <h2>About Jane</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure facere,
+          nobis et minus temporibus aspernatur illum magnam aliquam similique
+          autem soluta cumque modi, eaque corrupti amet ut ab cupiditate,
+          sapiente iusto! Dolor dolore expedita provident velit accusamus,
+          reprehenderit neque aliquam.
+        </p>
+      </div>
+      <div class="info-right">
+        <img src="./img/person-1.jpg" alt="jane_doe" />
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div id="contact-form">
+        <h2>Contact Jane</h2>
+        <p>Please fill out the form below to contact me</p>
+        <form>
+          <div>
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+            />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Enter your message"
+            ></textarea>
+          </div>
+          <!-- <button type="submit">Submit</button> -->
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+
+      <div id="contact-info">
+        <div>
+          <i class="fa-solid fa-envelope fa-3x"></i>
+          <h3>jane@gmail.com</h3>
+        </div>
+        <div>
+          <i class="fa-solid fa-location-dot fa-3x"></i>
+          <h3>Chicago, US</h3>
+        </div>
+        <div>
+          <i class="fa-solid fa-phone fa-3x"></i>
+          <h3>555-555-5555</h3>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <!-- Youtube video -->
+      <!-- <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/olJOZp57FWM?si=OlcQcDEEnXXib59-"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe> -->
+
+      <!-- Google Maps -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.6595930924536!2d10.188327475137623!3d36.898490972219186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd35a74f6be8b3%3A0x610fcf0f70512cec!2sGOMYCODE%20Ghazela!5e0!3m2!1sfr!2stn!4v1695481842871!5m2!1sfr!2stn"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <p>Jane Doe &copy; 2023, All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
